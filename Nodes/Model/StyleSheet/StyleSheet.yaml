@@ -1,0 +1,98 @@
+Name: StyleSheet
+Type: FolderType
+Children:
+- Name: XYChartArray
+  Id: g=6c9cb62954c097e7884ef359f13f0d42
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: 2
+  ArrayDimensions: [5,2]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [5,2],
+    "Body": [
+     0,0,
+     0,0,
+     0,0,
+     0,0,
+     0,0
+    ]
+   }
+- File: Types/Types.yaml
+- File: Instances/Instances.yaml
+- Name: WindowColor
+  Id: g=b9af3f846c177820ce059dbffa890508
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: ChartBackgroundColor
+  Id: g=109c0405c6c420efff063fb5fcd10988
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: FontSize
+  Id: g=b6c138bc87b26e50ac41cf64f4ca7456
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: StyleSheetFontSize
+  Id: g=a24a04aa8a8ebc8c674a27e1b07f4644
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Italic
+  Id: g=0e5ca986f55fbb1d53e8db312f47c9da
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: AccentColor
+  Id: g=81d3abd98d20cbfc3f9b80d2b72d8cf5
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Padding
+  Id: g=12b71822bb8e2b6d043321782faa9d26
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: AnimationDuration
+  Id: g=1c0220893d4a7bc4fcfd685686a9674a
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+- Name: Blink
+  Id: g=7778b0db7a348e2844ceca9751c3588a
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:0.0000000"
+- Name: ButtonBorderWidth
+  Id: g=4aefe07e176386ea8594273cba9fa850
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: FontFamily
+  Id: g=f0d738d4eed2955878d27259e7728108
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: GridColor
+  Id: g=932783aa8bdafa6b803c8ea9603a3d27
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: HoverBackgroundColor
+  Id: g=3829f0157637c21533736dabd406ff36
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: TooltipBackgroundColor
+  Id: g=466ebc2f1a67148a1ef983a997538ab7
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: PieHolePercent
+  Id: g=51e46a9e954e3b6789b8188cc53fb133
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

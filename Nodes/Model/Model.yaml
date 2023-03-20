@@ -1,0 +1,10 @@
+Name: Model
+Type: FolderType
+Children:
+- File: StyleSheet/StyleSheet.yaml
+- File: Tanks/Tanks.yaml
+- Name: AlarmVar
+  Id: g=a9d178f8840a74a2831eb8c68a07ecf5
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

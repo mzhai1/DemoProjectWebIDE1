@@ -1,0 +1,5 @@
+Name: Tanks
+Type: FolderType
+Children:
+- File: Types/Types.yaml
+- File: Instances/Instances.yaml

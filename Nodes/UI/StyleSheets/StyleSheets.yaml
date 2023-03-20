@@ -1,0 +1,593 @@
+Name: StyleSheets
+Type: FolderType
+Children:
+- Name: CustomizeStyleSheet
+  Id: g=6ef7c45f3778fa490a788288dac4c78b
+  Type: ns=12;StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Type: DataInputStyle
+    Children:
+    - Name: PlaceHolderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f7be61"
+  - Name: SwitchStyle
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Type: GaugeStyle
+    Children:
+    - Name: HandleSize
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 20.0
+  - Name: NavigationPanelStyle
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Type: ChartStyle
+  - Name: DataListStyle
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Type: ScrollBarStyle
+    Children:
+    - Name: AutoHide
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Size
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 15.0
+  - Name: AccordionStyle
+    Type: AccordionStyle
+    Children:
+    - Name: HeaderIconPosition
+      Type: BaseDataVariableType
+      DataType: HeaderIconPositionEnum
+      Value: 1
+    - Name: HeaderBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#7cf830"
+    - Name: ContentBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#98fec3"
+  - Name: PieChartStyle
+    Type: PieChartStyle
+    Children:
+    - Name: HoleSizePercent
+      Type: BaseDataVariableType
+      DataType: Percentage
+      Value: 50.0
+  - Name: HistogramChartStyle
+    Type: HistogramChartStyle
+    Children:
+    - Name: Spacing
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 20.0
+  - Name: TextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#0393fc"
+  - Name: BorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#012ef9"
+  - Name: BorderWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 2.0
+  - Name: FocusGlowSize
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 10.0
+  - Name: Radius
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 10.0
+  - Name: AccentBorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#54b3a4"
+  - Name: AccentTextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#fb2121"
+  - Name: DataInputBackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#cddff9"
+  - Name: DataInputTextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#15773c"
+  - Name: InteractiveBackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ef8881"
+  - Name: InteractiveColorGradientPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.30000001192092896
+  - Name: InteractiveDropShadowSize
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 10.0
+  - Name: HorizontalPaddingPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.5
+  - Name: VerticalPaddingPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.5
+  - Name: FontWeight
+    Type: BaseDataVariableType
+    DataType: FontWeightEnum
+    Value: 800
+  - Name: FontItalic
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: FontPixelSize
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 14.0
+  - Name: FontFamily
+    Type: BaseDataVariableType
+    DataType: Font
+    Value: "Rockwell"
+  - Name: DisabledOpacity
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.5
+  - Name: AnimationDuration
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1500
+  - Name: BlinkingPeriod
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:5.0000000"
+  - Name: AccentColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#09f2e4"
+  - Name: FocusColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#fa0fff"
+  - Name: WindowColor
+    Id: g=f6f0b03b07577a6e1ce47af70e2681e7
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#fcfec2"
+  - Name: InteractiveColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#17f98d"
+- Name: ElementCustomizeStyleSheet
+  Id: g=1ab9a64b149ae89312c3037ad8fa3bb3
+  Type: ns=12;StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Type: ButtonStyle
+    Children:
+    - Name: BorderWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 1.0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../Model/StyleSheet/ButtonBorderWidth"
+  - Name: ButtonAccentStyle
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Type: DataInputStyle
+    Children:
+    - Name: FontFamily
+      Type: BaseDataVariableType
+      DataType: Font
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../Model/StyleSheet/FontFamily"
+  - Name: SwitchStyle
+    Type: SwitchStyle
+    Children:
+    - Name: HandleColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f0f0f0"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../WindowColor"
+  - Name: GaugeStyle
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Type: ChartStyle
+    Children:
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#000000"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../Model/StyleSheet/ChartBackgroundColor"
+        - Name: Pairs
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+          - Name: Pair1
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 1
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#e2b0fe"
+          - Name: Pair2
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 2
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#f7fc9f"
+    - Name: GridColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#000000"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../Model/StyleSheet/GridColor"
+        - Name: Pairs
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#00000000"
+          - Name: Pair1
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 1
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#0883eb"
+  - Name: DataListStyle
+    Type: DataListStyle
+    Children:
+    - Name: HoverTextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#000000"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ChartStyle/GridColor"
+    - Name: HoverBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#000000"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../Model/StyleSheet/HoverBackgroundColor"
+        - Name: Pairs
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#da43fcf1"
+  - Name: ToolTipStyle
+    Type: ToolTipStyle
+    Children:
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#000000"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../Model/StyleSheet/TooltipBackgroundColor"
+        - Name: Pairs
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#33faea"
+  - Name: ScrollBarStyle
+    Type: ScrollBarStyle
+    Children:
+    - Name: AutoHide
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../FontItalic"
+  - Name: AccordionStyle
+    Type: AccordionStyle
+    Children:
+    - Name: HeaderBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#00000000"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../AccentColor"
+  - Name: PieChartStyle
+    Type: PieChartStyle
+    Children:
+    - Name: HoleSizePercent
+      Type: BaseDataVariableType
+      DataType: Percentage
+      Value: 0.0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../Model/StyleSheet/PieHolePercent"
+  - Name: HistogramChartStyle
+    Type: HistogramChartStyle
+    Children:
+    - Name: Spacing
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 0.0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../PieChartStyle/HoleSizePercent"
+  - Name: WindowColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../Model/StyleSheet/WindowColor"
+      - Name: Pairs
+        Type: BaseObjectType
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 0
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffffff"
+        - Name: Pair1
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 1
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#befc98"
+        - Name: Pair2
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 2
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#a9befe"
+  - Name: FontPixelSize
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 12.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/StyleSheet/StyleSheetFontSize"
+  - Name: FontItalic
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/StyleSheet/Italic"
+  - Name: AccentColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#0fafff"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../Model/StyleSheet/AccentColor"
+      - Name: Pairs
+        Type: BaseObjectType
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 0
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#fe5555dc"
+        - Name: Pair1
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 1
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#82df01"
+  - Name: HorizontalPaddingPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.30000001192092896
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/StyleSheet/Padding"
+  - Name: FontWeight
+    Type: BaseDataVariableType
+    DataType: FontWeightEnum
+    Value: 400
+  - Name: AnimationDuration
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 150
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/StyleSheet/AnimationDuration"
+  - Name: VerticalPaddingPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.30000001192092896
+  - Name: BlinkingPeriod
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/StyleSheet/Blink"

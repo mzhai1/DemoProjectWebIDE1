@@ -1,0 +1,329 @@
+Name: DataStores
+Type: FolderType
+Children:
+- Name: EmbeddedDatabase_alarm
+  Id: g=5975d729e2c3386e533021a7310ee174
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: AlarmsEventLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=26;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ActiveState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: AckedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConfirmedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConditionName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: EnabledState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: SourceName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Message_en-US'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Severity
+          Type: StoreColumn
+          DataType: UInt16
+          Value: 0
+        - Name: LocalTime
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+  - Class: Reference
+    Target: ns=28;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=26;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=59
+    Direction: Forward
+- Name: EmbeddedDatabase_recipe
+  Id: g=1ebad5b9e5f92151d6f1d71518b2acab
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeSchema1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=26;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: /Tank1/Name
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: /Tank1/Temp
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: /Tank1/Level
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+  - Class: Reference
+    Target: ns=28;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=26;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=59
+    Direction: Forward
+- Name: EmbeddedDatabase_datalogger
+  Id: g=2f89a5186904abff224392ffa8090902
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=26;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=26;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Level
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+  - Class: Reference
+    Target: ns=28;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=26;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=26;i=59
+    Direction: Forward

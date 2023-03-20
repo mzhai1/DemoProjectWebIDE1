@@ -1,0 +1,5 @@
+Name: Instances
+Type: FolderType
+Children:
+- File: Boilers/Boilers.yaml
+- File: Motors/Motors.yaml

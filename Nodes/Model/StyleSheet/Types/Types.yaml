@@ -1,0 +1,27 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: Boiler
+  Id: g=6d9ea9e137aeeb5fcd6d74622f115a2c
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor
+  Id: g=0c2b7705a885e1444e9b71a7450fac96
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

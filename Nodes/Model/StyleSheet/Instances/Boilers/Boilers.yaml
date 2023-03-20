@@ -1,0 +1,37 @@
+Name: Boilers
+Id: g=c8a16be5b2df55ea2bdeee3b53b5a0e5
+Type: FolderType
+Children:
+- Name: Boiler3
+  Type: Boiler
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Boiler3"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 150
+- Name: Boiler2
+  Type: Boiler
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Boiler2"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 75
+- Name: Boiler1
+  Type: Boiler
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Boiler1"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 75
