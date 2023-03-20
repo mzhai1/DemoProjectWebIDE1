@@ -5838,7 +5838,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
+      Value: 100.0
 - Name: ns=35;NetLogic
   Id: g=5cf96dab72114632224b6e17ced24963
   Supertype: Panel
